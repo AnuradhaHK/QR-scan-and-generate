@@ -1,0 +1,1 @@
+ /media/anuradha/New\ Volume/CEYTECH/Projects/qr_ui\ (copy)/.dart_tool/flutter_build/2eff8d5dc312d7c8236ba59b9c576c5b/native_assets.yaml: 

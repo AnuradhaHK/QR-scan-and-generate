@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.qr_ui"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/anuradha/Documents/ceytechProjects/qr_ui/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/home/anuradha/Documents/ceytechProjects/qr_ui/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[:mobile_scanner] /home/anuradha/Documents/ceytechProjects/qr_ui/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-65
+16-->[:mobile_scanner] /home/anuradha/Documents/ceytechProjects/qr_ui/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-62
+17
+18    <uses-feature
+18-->[:mobile_scanner] /home/anuradha/Documents/ceytechProjects/qr_ui/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:36
+19        android:name="android.hardware.camera"
+19-->[:mobile_scanner] /home/anuradha/Documents/ceytechProjects/qr_ui/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-47
+20        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+20-->[:mobile_scanner] /home/anuradha/Documents/ceytechProjects/qr_ui/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-33
+21    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anuradha/.gradle/caches/transforms-3/8b2d3ac143d2b3e1dcedd9a174d7d5ca/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+22-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anuradha/.gradle/caches/transforms-3/8b2d3ac143d2b3e1dcedd9a174d7d5ca/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+23
+24    <application
+25        android:name="android.app.Application"
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.6.0] /home/anuradha/.gradle/caches/transforms-3/65974899061b0ad0f02cf04e79a3b792/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+29        android:label="qr_ui" >
+30        <activity
+31            android:name="com.example.qr_ui.MainActivity"
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33            android:exported="true"
+34            android:hardwareAccelerated="true"
+35            android:launchMode="singleTop"
+36            android:theme="@style/LaunchTheme"
+37            android:windowSoftInputMode="adjustResize" >
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+46                android:name="io.flutter.embedding.android.NormalTheme"
+47                android:resource="@style/NormalTheme" />
+48
+49            <intent-filter>
+50                <action android:name="android.intent.action.MAIN" />
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+60            android:name="flutterEmbedding"
+61            android:value="2" />
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0-beta04] /home/anuradha/.gradle/caches/transforms-3/9cc52b3e83bb0867319cc875ec018ef8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0-beta04] /home/anuradha/.gradle/caches/transforms-3/9cc52b3e83bb0867319cc875ec018ef8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0-beta04] /home/anuradha/.gradle/caches/transforms-3/9cc52b3e83bb0867319cc875ec018ef8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] /home/anuradha/.gradle/caches/transforms-3/9cc52b3e83bb0867319cc875ec018ef8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0-beta04] /home/anuradha/.gradle/caches/transforms-3/9cc52b3e83bb0867319cc875ec018ef8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] /home/anuradha/.gradle/caches/transforms-3/9cc52b3e83bb0867319cc875ec018ef8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+69        <!--
+70        Service for holding metadata. Cannot be instantiated.
+71        Metadata will be merged from other manifests.
+72        -->
+73        <service
+73-->[androidx.camera:camera-core:1.3.3] /home/anuradha/.gradle/caches/transforms-3/75ab65e6aaf23cd692449c042e803979/transformed/jetified-camera-core-1.3.3/AndroidManifest.xml:29:9-33:78
+74            android:name="androidx.camera.core.impl.MetadataHolderService"
+74-->[androidx.camera:camera-core:1.3.3] /home/anuradha/.gradle/caches/transforms-3/75ab65e6aaf23cd692449c042e803979/transformed/jetified-camera-core-1.3.3/AndroidManifest.xml:30:13-75
+75            android:enabled="false"
+75-->[androidx.camera:camera-core:1.3.3] /home/anuradha/.gradle/caches/transforms-3/75ab65e6aaf23cd692449c042e803979/transformed/jetified-camera-core-1.3.3/AndroidManifest.xml:31:13-36
+76            android:exported="false" >
+76-->[androidx.camera:camera-core:1.3.3] /home/anuradha/.gradle/caches/transforms-3/75ab65e6aaf23cd692449c042e803979/transformed/jetified-camera-core-1.3.3/AndroidManifest.xml:32:13-37
+77            <meta-data
+77-->[androidx.camera:camera-camera2:1.3.3] /home/anuradha/.gradle/caches/transforms-3/6897b938e9c4501f2b2dcd8d0d3de6bb/transformed/jetified-camera-camera2-1.3.3/AndroidManifest.xml:30:13-32:89
+78                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+78-->[androidx.camera:camera-camera2:1.3.3] /home/anuradha/.gradle/caches/transforms-3/6897b938e9c4501f2b2dcd8d0d3de6bb/transformed/jetified-camera-camera2-1.3.3/AndroidManifest.xml:31:17-103
+79                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+79-->[androidx.camera:camera-camera2:1.3.3] /home/anuradha/.gradle/caches/transforms-3/6897b938e9c4501f2b2dcd8d0d3de6bb/transformed/jetified-camera-camera2-1.3.3/AndroidManifest.xml:32:17-86
+80        </service>
+81        <service
+81-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/anuradha/.gradle/caches/transforms-3/b41a0f68e5017a4adde89bc8e1dc9957/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:9:9-15:19
+82            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+82-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/anuradha/.gradle/caches/transforms-3/b41a0f68e5017a4adde89bc8e1dc9957/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:10:13-91
+83            android:directBootAware="true"
+83-->[com.google.mlkit:common:18.9.0] /home/anuradha/.gradle/caches/transforms-3/4d25052b27c42182ceeff2b50676654d/transformed/jetified-common-18.9.0/AndroidManifest.xml:17:13-43
+84            android:exported="false" >
+84-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/anuradha/.gradle/caches/transforms-3/b41a0f68e5017a4adde89bc8e1dc9957/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:11:13-37
+85            <meta-data
+85-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/anuradha/.gradle/caches/transforms-3/b41a0f68e5017a4adde89bc8e1dc9957/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:12:13-14:85
+86                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+86-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/anuradha/.gradle/caches/transforms-3/b41a0f68e5017a4adde89bc8e1dc9957/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:13:17-120
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/anuradha/.gradle/caches/transforms-3/b41a0f68e5017a4adde89bc8e1dc9957/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:14:17-82
+88            <meta-data
+88-->[com.google.mlkit:vision-common:17.3.0] /home/anuradha/.gradle/caches/transforms-3/7ac6225dd67529054a9a1f9fe2867bf4/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+89                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+89-->[com.google.mlkit:vision-common:17.3.0] /home/anuradha/.gradle/caches/transforms-3/7ac6225dd67529054a9a1f9fe2867bf4/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.mlkit:vision-common:17.3.0] /home/anuradha/.gradle/caches/transforms-3/7ac6225dd67529054a9a1f9fe2867bf4/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+91            <meta-data
+91-->[com.google.mlkit:common:18.9.0] /home/anuradha/.gradle/caches/transforms-3/4d25052b27c42182ceeff2b50676654d/transformed/jetified-common-18.9.0/AndroidManifest.xml:20:13-22:85
+92                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+92-->[com.google.mlkit:common:18.9.0] /home/anuradha/.gradle/caches/transforms-3/4d25052b27c42182ceeff2b50676654d/transformed/jetified-common-18.9.0/AndroidManifest.xml:21:17-120
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.mlkit:common:18.9.0] /home/anuradha/.gradle/caches/transforms-3/4d25052b27c42182ceeff2b50676654d/transformed/jetified-common-18.9.0/AndroidManifest.xml:22:17-82
+94        </service>
+95
+96        <provider
+96-->[com.google.mlkit:common:18.9.0] /home/anuradha/.gradle/caches/transforms-3/4d25052b27c42182ceeff2b50676654d/transformed/jetified-common-18.9.0/AndroidManifest.xml:9:9-13:38
+97            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+97-->[com.google.mlkit:common:18.9.0] /home/anuradha/.gradle/caches/transforms-3/4d25052b27c42182ceeff2b50676654d/transformed/jetified-common-18.9.0/AndroidManifest.xml:10:13-78
+98            android:authorities="com.example.qr_ui.mlkitinitprovider"
+98-->[com.google.mlkit:common:18.9.0] /home/anuradha/.gradle/caches/transforms-3/4d25052b27c42182ceeff2b50676654d/transformed/jetified-common-18.9.0/AndroidManifest.xml:11:13-69
+99            android:exported="false"
+99-->[com.google.mlkit:common:18.9.0] /home/anuradha/.gradle/caches/transforms-3/4d25052b27c42182ceeff2b50676654d/transformed/jetified-common-18.9.0/AndroidManifest.xml:12:13-37
+100            android:initOrder="99" />
+100-->[com.google.mlkit:common:18.9.0] /home/anuradha/.gradle/caches/transforms-3/4d25052b27c42182ceeff2b50676654d/transformed/jetified-common-18.9.0/AndroidManifest.xml:13:13-35
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:18.1.0] /home/anuradha/.gradle/caches/transforms-3/2e183b35a4a03d804e7070aca8531428/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:18.1.0] /home/anuradha/.gradle/caches/transforms-3/2e183b35a4a03d804e7070aca8531428/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:18.1.0] /home/anuradha/.gradle/caches/transforms-3/2e183b35a4a03d804e7070aca8531428/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:18.1.0] /home/anuradha/.gradle/caches/transforms-3/2e183b35a4a03d804e7070aca8531428/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:18.1.0] /home/anuradha/.gradle/caches/transforms-3/bf641d20c8967dc785beb4140c400991/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:18.1.0] /home/anuradha/.gradle/caches/transforms-3/bf641d20c8967dc785beb4140c400991/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:18.1.0] /home/anuradha/.gradle/caches/transforms-3/bf641d20c8967dc785beb4140c400991/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+110
+111        <service
+111-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anuradha/.gradle/caches/transforms-3/8b2d3ac143d2b3e1dcedd9a174d7d5ca/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+112            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+112-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anuradha/.gradle/caches/transforms-3/8b2d3ac143d2b3e1dcedd9a174d7d5ca/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+113            android:exported="false" >
+113-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anuradha/.gradle/caches/transforms-3/8b2d3ac143d2b3e1dcedd9a174d7d5ca/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+114            <meta-data
+114-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anuradha/.gradle/caches/transforms-3/8b2d3ac143d2b3e1dcedd9a174d7d5ca/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+115                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+115-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anuradha/.gradle/caches/transforms-3/8b2d3ac143d2b3e1dcedd9a174d7d5ca/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+116                android:value="cct" />
+116-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anuradha/.gradle/caches/transforms-3/8b2d3ac143d2b3e1dcedd9a174d7d5ca/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+117        </service>
+118        <service
+118-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anuradha/.gradle/caches/transforms-3/cf8109080325b6ecf6ec1de46088d200/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+119            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+119-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anuradha/.gradle/caches/transforms-3/cf8109080325b6ecf6ec1de46088d200/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+120            android:exported="false"
+120-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anuradha/.gradle/caches/transforms-3/cf8109080325b6ecf6ec1de46088d200/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" >
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anuradha/.gradle/caches/transforms-3/cf8109080325b6ecf6ec1de46088d200/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+122        </service>
+123
+124        <receiver
+124-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anuradha/.gradle/caches/transforms-3/cf8109080325b6ecf6ec1de46088d200/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+125            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+125-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anuradha/.gradle/caches/transforms-3/cf8109080325b6ecf6ec1de46088d200/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+126            android:exported="false" />
+126-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anuradha/.gradle/caches/transforms-3/cf8109080325b6ecf6ec1de46088d200/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+127    </application>
+128
+129</manifest>
